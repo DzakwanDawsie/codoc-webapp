@@ -1,0 +1,197 @@
+/* Prism.js One Dark Theme */
+/* Based on Atom's One Dark theme */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #abb2bf;
+    background: none;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.875rem;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    tab-size: 2;
+    hyphens: none;
+}
+
+/* Token colors */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #5c6370;
+    font-style: italic;
+}
+
+.token.punctuation {
+    color: #abb2bf;
+}
+
+.token.namespace {
+    opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #d19a66;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #98c379;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #56b6c2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+    color: #c678dd;
+}
+
+.token.function,
+.token.class-name {
+    color: #61afef;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #c678dd;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+/* Additional token types for specific languages */
+
+/* JavaScript/TypeScript */
+.token.template-string {
+    color: #98c379;
+}
+
+.token.template-punctuation {
+    color: #98c379;
+}
+
+.token.interpolation {
+    color: #abb2bf;
+}
+
+.token.interpolation-punctuation {
+    color: #c678dd;
+}
+
+/* JSX/TSX */
+.token.script.language-javascript,
+.token.script.language-typescript {
+    color: #abb2bf;
+}
+
+.token.spread.punctuation {
+    color: #c678dd;
+}
+
+/* CSS */
+.token.selector {
+    color: #e06c75;
+}
+
+.token.property {
+    color: #d19a66;
+}
+
+/* JSON */
+.language-json .token.property {
+    color: #e06c75;
+}
+
+/* Markdown */
+.token.title,
+.token.title .token.punctuation {
+    color: #61afef;
+    font-weight: bold;
+}
+
+.token.blockquote {
+    color: #5c6370;
+}
+
+.token.code {
+    color: #98c379;
+}
+
+.token.hr {
+    color: #5c6370;
+}
+
+.token.url,
+.token.url-link {
+    color: #56b6c2;
+}
+
+.token.list.punctuation {
+    color: #e06c75;
+}
+
+/* Diff */
+.token.coord {
+    color: #56b6c2;
+}
+
+.token.deleted-sign,
+.token.deleted-arrow {
+    color: #e06c75;
+}
+
+.token.inserted-sign,
+.token.inserted-arrow {
+    color: #98c379;
+}
+
+/* Shell/Bash */
+.token.function {
+    color: #61afef;
+}
+
+.token.command {
+    color: #abb2bf;
+}
+
+/* YAML */
+.language-yaml .token.key {
+    color: #e06c75;
+}
+
+/* Docker */
+.token.instruction {
+    color: #c678dd;
+}
