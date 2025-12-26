@@ -1004,7 +1004,7 @@ export function DocumentationLayout({
                         onClick={onBack}
                         className="text-gray-400 hover:text-white transition cursor-pointer"
                     >
-                        ← Kembali
+                        ← Back
                     </button>
                     <div className="text-gray-500">|</div>
                     <div className="text-gray-400 text-sm truncate max-w-md flex items-center gap-2">
